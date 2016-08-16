@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Documento de pruebas</title>
+    <style>
+        *{margin:0px;padding:0px;}
+        .contenedor{width:40%;height:650px;margin:auto;background-color:beige;}
+        .noboxsizing{position:relative;width:200px;margin:auto;border:10px #333333 solid;color:#333333;padding:10px;}
+        .boxsizing{position:relative;width:200px;margin:auto;border:10px #333333 solid;box-sizing:border-box;color:#333333;padding:100px;}
+        img {
+	    max-width:100%;
+	    height:auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Propiedad BOX-SIZING -->
+    <div class="contenedor">
+        <div class="noboxsizing">
+            Este contenido está dentro de un contenedor que <u>no</u> usa la propiedad BOX-SIZING
+        </div>
+        <br>
+        <div class="boxsizing">
+            Este contenido está dentro de un contenedor que <u>sí</u> usa la propiedad BOX-SIZING
+        </div>
+    </div>
+    <img src="http://www.lorempixel.com/100/100" alt="miImagen" width="600" height="600">
+</body>
+</html>
