@@ -78,5 +78,9 @@
     font-weight: bolder !important;
 }
 
+/* Links */
+.enlace{text-decoration: none !important;}
+.enlace:hover{text-decoration: underline !important;}
+
 /* Others */
 .pointer{cursor: pointer !important;}
